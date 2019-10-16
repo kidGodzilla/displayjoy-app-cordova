@@ -33,15 +33,36 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
+        <title>Display Joy</title>
+        
+        <style type="text/css">
+            body {
+                background-color: #FF331C;
+                width: 100%;
+                width: 100vw;
+                height: 100%;
+                height: 100vh;
+            }
+            .app, .app iframe {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                width: 100vw;
+                height: 100%;
+                height: 100vh;
+            }
+        </style>
     </head>
     <body>
         <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+            <h1>Loading..</h1>
+            <!--<div id="deviceready" class="blink">-->
+                <!--<p class="event listening">Connecting to Device</p>-->
+                <!--<p class="event received">Device is Ready</p>-->
+            <!--</div>-->
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

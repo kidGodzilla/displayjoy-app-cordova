@@ -16,28 +16,56 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+var initialHref = 'https://app.displayjoy.com';
+var browserOptions = 'location=no,zoom=no,hidden=yes,toolbar=no,status=no,titlebar=no,presentationstyle=fullscreen,disallowoverscroll=yes,allowInlineMediaPlayback=yes,mediaPlaybackRequiresUserAction=no';
+var browserOptions2 = 'location=no,zoom=no,hidden=yes,toolbar=no,status=no,titlebar=no,presentationstyle=fullscreen,disallowoverscroll=yes,allowInlineMediaPlayback=yes,mediaPlaybackRequiresUserAction=no,clearsessioncache=yes';
+var timer1, deviceInfo = "?";
+
 var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     },
-
-    // deviceready Event Handler
-    //
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+
+        try {
+            deviceInfo += 'manufacturer=' + encodeURIComponent(device.manufacturer);
+            deviceInfo += '&platform=' + encodeURIComponent(device.platform);
+            deviceInfo += '&version=' + encodeURIComponent(device.version);
+            deviceInfo += '&cordova=' + encodeURIComponent(device.cordova);
+            deviceInfo += '&serial=' + encodeURIComponent(device.serial);
+            deviceInfo += '&model=' + encodeURIComponent(device.model);
+            deviceInfo += '&uuid=' + encodeURIComponent(device.uuid);
+            deviceInfo += '&app=' + '1.0.18';
+        } catch(e){}
+
+        var browser = cordova.InAppBrowser.open(initialHref + deviceInfo, '_self', browserOptions);
+
+        function reloadBrowser () {
+            browser.executeScript({ code: "window.location.reload(true);" });
+        }
+
+        // Events to occur once the page finishes loading (similar to child onReady event)
+        browser.addEventListener('loadstop', function () {
+            try { browser.show(); } catch(e){}
+        });
+
+        // Reload InAppBrowser every 24 hours
+        timer1 = setInterval(reloadBrowser, 24 * 60 * 60 * 1000);
+        browser.addEventListener('loaderror', reloadBrowser);
+
     },
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+        //var parentElement = document.getElementById(id);
+        //var listeningElement = parentElement.querySelector('.listening');
+        //var receivedElement = parentElement.querySelector('.received');
+        //
+        //listeningElement.setAttribute('style', 'display:none;');
+        //receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
     }
