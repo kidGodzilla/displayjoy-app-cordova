@@ -14,4 +14,6 @@ https://meetingroom365.b-cdn.net/apps/atv3.apk
 
 ## Todos
 
-[ ] Add custom timers
+- [x] Fix automatic loading issue on Android TV
+- [x] Replace splash video with image
+- [ ] Add custom timers
