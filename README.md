@@ -1,4 +1,4 @@
-# displayjoy-app-cordova
+# Display Joy App
 
 ## Latest builds
 
