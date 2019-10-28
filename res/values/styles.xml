@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+    </style>
+</resources>
