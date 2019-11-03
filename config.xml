@@ -38,10 +38,6 @@
         <splash density="hdpi" src="res/screen/android/screen-hdpi-landscape.png" />
         <splash density="xhdpi" src="res/screen/android/screen-xhdpi-landscape.png" />
 
-        <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
-
-        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application"></edit-config>
-
         <resource-file src="res/drawable/banner.png" target="app/src/main/res/drawable/banner.png" />
     </platform>
     <platform name="ios">
