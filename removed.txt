@@ -19,3 +19,4 @@ Changed to:
 & Added to cordova android tv plugin
 
         /plugins/cordova-plugin-android-tv/plugin.xml
+
