@@ -9,6 +9,7 @@
     </author>
     <content src="index.html" />
     <access origin="https://*.mr365.co/*" />
+    <access origin="https://*.displayjoy.com/*" />
     <access origin="https://*.meetingroom365.com/*" />
     <access origin="https://login.microsoftonline.com/*" />
     <allow-intent href="*" />
