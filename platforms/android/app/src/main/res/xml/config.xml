@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.displayjoy" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.displayjoy" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://phonegap.com/ns/1.0">
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
@@ -40,10 +40,6 @@
     <splash density="mdpi" src="res/screen/android/screen-mdpi-landscape.png" />
     <splash density="hdpi" src="res/screen/android/screen-hdpi-landscape.png" />
     <splash density="xhdpi" src="res/screen/android/screen-xhdpi-landscape.png" />
-    <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="application">
-        <application android:banner="@drawable/banner" android:debuggable="true" android:icon="@drawable/banner" />
-        <activity android:icon="@drawable/banner" android:logo="@drawable/banner" />
-    </edit-config>
     <resource-file src="res/drawable/banner.png" target="app/src/main/res/drawable/banner.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
