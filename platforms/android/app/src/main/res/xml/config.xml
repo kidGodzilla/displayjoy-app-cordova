@@ -4,14 +4,25 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
     <name>DisplayJoy</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        The Fastest Way to get Your Content on a TV.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="james@meetingroom365.com" href="https://www.meetingroom365.com/">
+        James Futhey
     </author>
     <content src="index.html" />
+    <access origin="*" subdomains="true" />
+    <access origin="https://*.mr365.co/*" />
+    <access origin="https://*.displayjoy.com/*" />
+    <access origin="https://*.meetingroom365.com/*" />
+    <access origin="https://login.microsoftonline.com/*" />
+    <allow-navigation href="*youtube*" />
+    <allow-navigation href="*ytimg*" />
+    <allow-navigation href="*" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -19,9 +30,24 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-intent href="*" />
     <allow-intent href="market:*" />
+    <icon qualifier="ldpi" src="res/icon/android/icon-36-ldpi.png" />
+    <icon qualifier="mdpi" src="res/icon/android/icon-48-mdpi.png" />
+    <icon qualifier="hdpi" src="res/icon/android/icon-72-hdpi.png" />
+    <icon qualifier="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
+    <splash density="ldpi" src="res/screen/android/screen-ldpi-landscape.png" />
+    <splash density="mdpi" src="res/screen/android/screen-mdpi-landscape.png" />
+    <splash density="hdpi" src="res/screen/android/screen-hdpi-landscape.png" />
+    <splash density="xhdpi" src="res/screen/android/screen-xhdpi-landscape.png" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" />
+    <resource-file src="res/drawable/banner.png" target="app/src/main/res/drawable/banner.png" />
     <preference name="loglevel" value="DEBUG" />
-    <feature name="InAppBrowser">
-        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
-    </feature>
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="loadUrlTimeoutValue" value="120000" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="27" />
 </widget>
