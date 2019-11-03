@@ -2,12 +2,13 @@
 <widget id="com.displayjoy" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>DisplayJoy</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        The Fastest Way to get Your Content on a TV.
     </description>
     <author email="james@meetingroom365.com" href="https://www.meetingroom365.com/">
         James Futhey
     </author>
     <content src="index.html" />
+    <access origin="*" subdomains="true" />
     <access origin="https://*.mr365.co/*" />
     <access origin="https://*.displayjoy.com/*" />
     <access origin="https://*.meetingroom365.com/*" />
@@ -16,7 +17,6 @@
     <allow-navigation href="*youtube*" />
     <allow-navigation href="*ytimg*" />
     <allow-navigation href="*" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -25,6 +25,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
+        <allow-intent href="*" />
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="19" />
         <preference name="android-targetSdkVersion" value="27"/>
@@ -41,4 +42,14 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="loadUrlTimeoutValue" value="120000" />
+    <preference name="Fullscreen" value="true" />
+
+    <plugin name="cordova-plugin-inappbrowser" spec="3.0.0" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+
+    <engine name="android" spec="7.1.2" />
 </widget>
