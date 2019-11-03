@@ -1,0 +1,4 @@
+<edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="application">
+            <application android:icon="@drawable/banner" android:debuggable="true" android:banner="@drawable/banner"/>
+            <activity android:icon="@drawable/banner" android:logo="@drawable/banner" />
+</edit-config>

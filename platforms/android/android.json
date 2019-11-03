@@ -86,6 +86,38 @@
             }
           ]
         }
+      },
+      "app/src/main/AndroidManifest.xml": {
+        "parents": {
+          "application": [
+            {
+              "xml": "<application android:banner=\"@drawable/banner\" android:debuggable=\"true\" android:icon=\"@drawable/banner\" />",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml",
+              "oldAttrib": {
+                "android:hardwareAccelerated": "true",
+                "android:icon": "@mipmap/ic_launcher",
+                "android:label": "@string/app_name",
+                "android:supportsRtl": "true"
+              }
+            },
+            {
+              "xml": "<activity android:icon=\"@drawable/banner\" android:logo=\"@drawable/banner\" />",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml",
+              "oldAttrib": {
+                "android:hardwareAccelerated": "true",
+                "android:icon": "@drawable/banner",
+                "android:label": "@string/app_name",
+                "android:supportsRtl": "true",
+                "android:banner": "@drawable/banner",
+                "android:debuggable": "true"
+              }
+            }
+          ]
+        }
       }
     }
   },
