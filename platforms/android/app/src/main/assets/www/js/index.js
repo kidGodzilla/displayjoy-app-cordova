@@ -17,10 +17,8 @@
  * under the License.
  */
 
-var initialHref = 'https://app.displayjoy.com';
+var initialHref = 'https://app.displayjoy.com', timer1, deviceInfo = "?";
 var browserOptions = 'location=no,zoom=no,hidden=yes,toolbar=no,status=no,titlebar=no,presentationstyle=fullscreen,disallowoverscroll=yes,allowInlineMediaPlayback=yes,mediaPlaybackRequiresUserAction=no';
-var browserOptions2 = 'location=no,zoom=no,hidden=yes,toolbar=no,status=no,titlebar=no,presentationstyle=fullscreen,disallowoverscroll=yes,allowInlineMediaPlayback=yes,mediaPlaybackRequiresUserAction=no,clearsessioncache=yes';
-var timer1, deviceInfo = "?";
 
 var app = {
     // Application Constructor
