@@ -40,11 +40,9 @@
         <splash density="hdpi" src="res/screen/android/screen-hdpi-landscape.png" />
         <splash density="xhdpi" src="res/screen/android/screen-xhdpi-landscape.png" />
 
-        <splash density="port-xxxhdpi" src="res/drawable/banner.png" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
+        <splash density="port-hdpi" src="res/drawable/banner.png" />
+
+        <asset src="res/drawable/banner.png" target="@drawable/banner" />
     </platform>
 
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
