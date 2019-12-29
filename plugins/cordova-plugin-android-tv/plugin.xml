@@ -42,6 +42,6 @@
             </application>
         </edit-config>
 
-        <hook type="after_prepare" src="patch.js"/>
+        <!--<hook type="after_prepare" src="patch.js"/>-->
     </platform>
 </plugin>
