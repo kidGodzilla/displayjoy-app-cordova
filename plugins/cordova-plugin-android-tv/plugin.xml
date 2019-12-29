@@ -36,7 +36,7 @@
             <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
         </config-file>
 
-        <asset src="res/drawable/banner.png" target="res/drawable/banner.png" />
+        <asset src="res/drawable/banner.png" target="@drawable/banner" />
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest">
             <application android:debuggable="true" android:isGame="false" android:banner="@drawable/banner">
