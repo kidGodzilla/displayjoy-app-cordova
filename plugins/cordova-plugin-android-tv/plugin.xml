@@ -37,8 +37,9 @@
         </config-file>
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest">
-            <application android:icon="@drawable/banner" android:debuggable="true" android:banner="@drawable/banner"/>
-            <activity android:icon="@drawable/banner" android:logo="@drawable/banner" />
+            <application android:icon="@drawable/banner" android:debuggable="true" android:banner="@drawable/banner">
+                <activity android:launchMode="1" android:hardwareAccelerated="true" />
+            </application>
         </edit-config>
 
         <hook type="after_prepare" src="patch.js"/>
