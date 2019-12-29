@@ -28,11 +28,13 @@
         <allow-intent href="*" />
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="19" />
-        <preference name="android-targetSdkVersion" value="27"/>
-        <icon qualifier="ldpi" src="res/icon/android/icon-36-ldpi.png" />
-        <icon qualifier="mdpi" src="res/icon/android/icon-48-mdpi.png" />
-        <icon qualifier="hdpi" src="res/icon/android/icon-72-hdpi.png" />
-        <icon qualifier="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
+        <preference name="android-targetSdkVersion" value="28"/>
+
+        <icon qualifier="ldpi" src="res/icon/android/ldpi.png" />
+        <icon qualifier="mdpi" src="res/icon/android/mdpi.png" />
+        <icon qualifier="hdpi" src="res/icon/android/hdpi.png" />
+        <icon qualifier="xhdpi" src="res/icon/android/xhdpi.png" />
+
         <splash density="ldpi" src="res/screen/android/screen-ldpi-landscape.png" />
         <splash density="mdpi" src="res/screen/android/screen-mdpi-landscape.png" />
         <splash density="hdpi" src="res/screen/android/screen-hdpi-landscape.png" />

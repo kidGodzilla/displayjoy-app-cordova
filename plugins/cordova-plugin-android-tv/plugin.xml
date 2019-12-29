@@ -37,7 +37,7 @@
         </config-file>
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest">
-            <application android:icon="@drawable/banner" android:debuggable="true" android:banner="@drawable/banner">
+            <application android:debuggable="true" android:banner="res/drawable/banner">
                 <activity android:launchMode="1" android:hardwareAccelerated="true" />
             </application>
         </edit-config>
