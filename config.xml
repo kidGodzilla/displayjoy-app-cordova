@@ -41,6 +41,7 @@
         <splash density="xhdpi" src="res/screen/android/screen-xhdpi-landscape.png" />
 
         <splash density="port-hdpi" src="res/drawable/banner.png" />
+        <banner density="hdpi" src="res/drawable/banner.png" />
 
         <asset src="res/drawable/banner.png" target="@drawable/banner" />
     </platform>
