@@ -45,7 +45,7 @@
         </edit-config>
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity">
-            <activity android:hardwareAccelerated="true" android:screenOrientation="landscape" />
+            <activity android:hardwareAccelerated="true" />
         </edit-config>
 
         <hook type="after_prepare" src="patch.js"/>
