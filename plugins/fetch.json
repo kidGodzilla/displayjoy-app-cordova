@@ -10,7 +10,7 @@
   "cordova-plugin-android-tv": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-android-tv@^1.0.3"
+      "id": "https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git"
     },
     "is_top_level": true,
     "variables": {}

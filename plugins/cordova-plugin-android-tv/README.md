@@ -8,6 +8,8 @@ Install
 
 `cordova plugin add cordova-plugin-android-tv`
 
+This plugin expects banner image to be present in @drawable/banner which for cordova-android < 7.0.0 resolves to platforms/android/res/drawable/banner.png. You need to somehow copy the banner into this directory after "cordova platform add android" but before "cordova build android".
+
 Source
 ------
 https://github.com/frontyard/cordova-plugin-android-tv

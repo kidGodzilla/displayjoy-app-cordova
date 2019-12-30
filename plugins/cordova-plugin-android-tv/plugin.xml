@@ -16,10 +16,8 @@
 
     <platform name="android">
         <resource-file src="banner.png" target="app/src/main/res/drawable/banner.png" />
-
         <custom-preference name="android-manifest/application/@android:banner" value="@drawable/banner" />
         <custom-preference name="android-manifest/@android:banner" value="@drawable/banner" />
-
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-feature android:name="android.software.leanback" android:required="false"/>
             <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
@@ -29,7 +27,6 @@
             <uses-feature android:name="android.hardware.wifi" android:required="false"/>
             <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
             <uses-feature android:name="android.hardware.location" android:required="false"/>
-            <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
             <uses-feature android:name="android.hardware.location.network" android:required="false"/>
             <uses-feature android:name="android.hardware.telephony" android:required="false"/>
         </config-file>
@@ -41,12 +38,6 @@
             <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
         </config-file>
 
-        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest">
-            <application android:debuggable="true" android:isGame="false">
-                <activity android:launchMode="1" android:hardwareAccelerated="true" />
-            </application>
-        </edit-config>
-
-        <!--<hook type="after_prepare" src="patch.js"/>-->
+        <hook type="after_prepare" src="patch.js"/>
     </platform>
 </plugin>

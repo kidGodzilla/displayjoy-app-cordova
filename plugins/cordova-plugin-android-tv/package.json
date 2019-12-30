@@ -1,27 +1,24 @@
 {
-  "_from": "cordova-plugin-android-tv",
+  "_from": "git+https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git",
   "_id": "cordova-plugin-android-tv@1.0.3",
   "_inBundle": false,
-  "_integrity": "sha1-eEHIWZPzPXSqPtAQsArntLV32go=",
+  "_integrity": "",
   "_location": "/cordova-plugin-android-tv",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-android-tv",
-    "name": "cordova-plugin-android-tv",
-    "escapedName": "cordova-plugin-android-tv",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "type": "git",
+    "raw": "https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git",
+    "rawSpec": "https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git",
+    "saveSpec": "git+https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git",
+    "fetchSpec": "https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-android-tv/-/cordova-plugin-android-tv-1.0.3.tgz",
-  "_shasum": "7841c85993f33d74aa3ed010b00ae7b4b577da0a",
-  "_spec": "cordova-plugin-android-tv",
+  "_resolved": "git+https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git#61b2f50b8bd4d2ff620f4c2be866e08038d13b24",
+  "_spec": "https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git",
   "_where": "/Users/jamesfuthey/displayjoy-app-cordova",
   "author": {
     "name": "Nedim Cholich"

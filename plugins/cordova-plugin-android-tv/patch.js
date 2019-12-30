@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 module.exports = function (context) {
-    var fs = context.requireCordovaModule('fs'),
-        path = context.requireCordovaModule('path'),
+    var fs = require('fs'),
+        path = require('path'),
         platformRoot = path.join(context.opts.projectRoot, 'platforms/android'),
         manifestFile = path.join(platformRoot, 'AndroidManifest.xml');
 
