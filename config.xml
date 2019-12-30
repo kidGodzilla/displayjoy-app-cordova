@@ -8,6 +8,7 @@
         James Futhey
     </author>
     <content src="index.html" />
+
     <access origin="*" subdomains="true" />
     <access origin="https://*.mr365.co/*" />
     <access origin="https://*.displayjoy.com/*" />
@@ -18,6 +19,7 @@
     <allow-navigation href="*ytimg*" />
     <allow-navigation href="*" />
     <access origin="*" />
+
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -25,6 +27,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
+        <access origin="*" />
         <allow-intent href="*" />
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="19" />

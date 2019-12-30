@@ -23,13 +23,13 @@
     <allow-navigation href="*youtube*" />
     <allow-navigation href="*ytimg*" />
     <allow-navigation href="*" />
-    <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <access origin="*" />
     <allow-intent href="*" />
     <allow-intent href="market:*" />
     <icon qualifier="ldpi" src="res/icon/android/ldpi.png" />
