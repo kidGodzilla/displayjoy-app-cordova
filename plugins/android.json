@@ -18,6 +18,33 @@
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-insomnia": {
+      "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-brightness": {
+      "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-app-version": {
+      "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-cache-clear": {
+      "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-nativestorage": {
+      "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-kiosk-launcher": {
+      "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-emm-app-config": {
+      "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.displayjoy"
     }
   },
   "dependent_plugins": {}

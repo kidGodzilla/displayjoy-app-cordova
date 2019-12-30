@@ -1,0 +1,68 @@
+{
+  "_from": "cordova-plugin-emm-app-config",
+  "_id": "cordova-plugin-emm-app-config@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-B9zBuKkbqg0G1x9d+z7i1C0BFe8=",
+  "_location": "/cordova-plugin-emm-app-config",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-emm-app-config",
+    "name": "cordova-plugin-emm-app-config",
+    "escapedName": "cordova-plugin-emm-app-config",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-emm-app-config/-/cordova-plugin-emm-app-config-1.0.2.tgz",
+  "_shasum": "07dcc1b8a91baa0d06d71f5dfb3ee2d42d0115ef",
+  "_spec": "cordova-plugin-emm-app-config",
+  "_where": "/Users/jamesfuthey/displayjoy-app-cordova",
+  "author": {
+    "name": "oraclejet"
+  },
+  "bugs": {
+    "url": "https://github.com/oracle/cordova-plugin-emm-app-config/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-emm-app-config",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Enables apps to retrieve information on EMM application configuration (or managed app configuration)",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "homepage": "https://github.com/oracle/cordova-plugin-emm-app-config#readme",
+  "keywords": [
+    "cordova",
+    "emmappconfig",
+    "emm",
+    "mdm",
+    "managed",
+    "appconfig",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "UPL-1.0",
+  "name": "cordova-plugin-emm-app-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oracle/cordova-plugin-emm-app-config.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "version": "1.0.2"
+}

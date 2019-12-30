@@ -7,6 +7,33 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="Insomnia">
+        <param name="android-package" value="nl.xservices.plugins.Insomnia" />
+    </feature>
+    <feature name="Brightness">
+        <param name="android-package" value="org.apache.cordova.plugin.Brightness.BrightnessPlugin" />
+    </feature>
+    <feature name="AppVersion">
+        <param name="android-package" value="uk.co.whiteoctober.cordova.AppVersion" />
+    </feature>
+    <feature name="CacheClear">
+        <param name="android-package" value="com.anrip.cordova.CacheClear" />
+    </feature>
+    <feature name="NativeStorage">
+        <param name="android-package" value="NativeStorage" />
+    </feature>
+    <feature name="EmmAppConfig">
+        <param name="android-package" value="oracle.jet.emm.EmmAppConfig" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Kiosk">
+        <param name="android-package" value="org.cordova.plugin.labs.kiosk.Kiosk" />
+    </feature>
     <name>DisplayJoy</name>
     <description>
         The Fastest Way to get Your Content on a TV.
@@ -40,6 +67,8 @@
     <splash density="mdpi" src="res/screen/android/screen-mdpi-landscape.png" />
     <splash density="hdpi" src="res/screen/android/screen-hdpi-landscape.png" />
     <splash density="xhdpi" src="res/screen/android/screen-xhdpi-landscape.png" />
+    <icon density="xxhdpi" src="res/icon/android/xxhdpi.png" />
+    <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="AllowInlineMediaPlayback" value="true" />
@@ -47,4 +76,5 @@
     <preference name="Fullscreen" value="true" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="27" />
+    <preference name="KeepRunning" value="true" />
 </widget>

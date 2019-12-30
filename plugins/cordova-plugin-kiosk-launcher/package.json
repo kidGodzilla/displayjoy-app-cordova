@@ -1,0 +1,57 @@
+{
+  "_from": "cordova-plugin-kiosk-launcher",
+  "_id": "cordova-plugin-kiosk-launcher@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-tWdI7kw7yynbUZNtqCdnAPBJ5G672fsq5YL2HOQzLU/7mWI1+35aYU9WrO5tGky/GuKRvCsA/Hi/BiXVqRKX4g==",
+  "_location": "/cordova-plugin-kiosk-launcher",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-kiosk-launcher",
+    "name": "cordova-plugin-kiosk-launcher",
+    "escapedName": "cordova-plugin-kiosk-launcher",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-kiosk-launcher/-/cordova-plugin-kiosk-launcher-1.1.1.tgz",
+  "_shasum": "dc32997ab10779ab1927e12644319263c98f57da",
+  "_spec": "cordova-plugin-kiosk-launcher",
+  "_where": "/Users/jamesfuthey/displayjoy-app-cordova",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/guatedude2/cordova-plugin-kiosk-launcher/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-kiosk-launcher",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin to make a Cordova application a launcher",
+  "homepage": "https://github.com/guatedude2/cordova-plugin-kiosk-launcher#readme",
+  "keywords": [
+    "cordova",
+    "android",
+    "kiosk",
+    "launcher",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-kiosk-launcher",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guatedude2/cordova-plugin-kiosk-launcher.git"
+  },
+  "version": "1.1.1"
+}
