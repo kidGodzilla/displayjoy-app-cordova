@@ -48,6 +48,6 @@
             <activity android:hardwareAccelerated="true" />
         </edit-config>
 
-        <hook type="after_prepare" src="patch.js"/>
+        <!--<hook type="after_prepare" src="patch.js"/>-->
     </platform>
 </plugin>
