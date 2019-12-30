@@ -48,4 +48,6 @@
 
     <plugin name="cordova-plugin-android-tv" spec="https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+
+    <engine name="android" spec="^7.1.0" />
 </widget>
