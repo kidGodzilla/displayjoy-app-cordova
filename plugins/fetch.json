@@ -74,7 +74,7 @@
   "cordova-plugin-kiosk-launcher": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-kiosk-launcher"
+      "id": "https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git"
     },
     "is_top_level": true,
     "variables": {}

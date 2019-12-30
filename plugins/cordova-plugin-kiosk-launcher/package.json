@@ -1,27 +1,24 @@
 {
-  "_from": "cordova-plugin-kiosk-launcher",
+  "_from": "git+https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git",
   "_id": "cordova-plugin-kiosk-launcher@1.1.1",
   "_inBundle": false,
-  "_integrity": "sha512-tWdI7kw7yynbUZNtqCdnAPBJ5G672fsq5YL2HOQzLU/7mWI1+35aYU9WrO5tGky/GuKRvCsA/Hi/BiXVqRKX4g==",
+  "_integrity": "",
   "_location": "/cordova-plugin-kiosk-launcher",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-kiosk-launcher",
-    "name": "cordova-plugin-kiosk-launcher",
-    "escapedName": "cordova-plugin-kiosk-launcher",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "type": "git",
+    "raw": "https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git",
+    "rawSpec": "https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git",
+    "saveSpec": "git+https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git",
+    "fetchSpec": "https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-kiosk-launcher/-/cordova-plugin-kiosk-launcher-1.1.1.tgz",
-  "_shasum": "dc32997ab10779ab1927e12644319263c98f57da",
-  "_spec": "cordova-plugin-kiosk-launcher",
+  "_resolved": "git+https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git#fe9d1e8ea59f6eec9f5f2e3220737114510c8feb",
+  "_spec": "https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git",
   "_where": "/Users/jamesfuthey/displayjoy-app-cordova",
   "author": {
     "name": "Apache Software Foundation"

@@ -22,7 +22,7 @@
     "cordova-plugin-device": "^2.0.3",
     "cordova-plugin-emm-app-config": "^1.0.2",
     "cordova-plugin-insomnia": "^4.3.0",
-    "cordova-plugin-kiosk-launcher": "^1.1.1",
+    "cordova-plugin-kiosk-launcher": "git+https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git",
     "cordova-plugin-nativestorage": "^2.3.2",
     "cordova-plugin-network-information": "^2.0.2"
   },
