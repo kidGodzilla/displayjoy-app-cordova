@@ -16,8 +16,6 @@
 
     <platform name="android">
         <resource-file src="banner.png" target="res/drawable/banner.png" />
-        <custom-preference name="android-manifest/application/@android:banner" value="@drawable/banner" />
-        <custom-preference name="android-manifest/@android:banner" value="@drawable/banner" />
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-feature android:name="android.software.leanback" android:required="false"/>
@@ -40,7 +38,7 @@
         </config-file>
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest">
-            <application android:debuggable="true">
+            <application android:debuggable="true" android:isGame="false" android:banner="@drawable/banner">
                 <activity android:launchMode="1" android:hardwareAccelerated="true" />
             </application>
         </edit-config>
