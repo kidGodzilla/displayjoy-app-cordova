@@ -41,7 +41,7 @@
         </config-file>
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
-            <application android:debuggable="true" android:isGame="false" android:banner="@drawable/banner" android:largeHeap="true" android:theme="@style/Theme.Example.LeanbackLauncher" />
+            <application android:debuggable="true" android:isGame="false" android:banner="@drawable/banner" android:largeHeap="true" android:theme="@android:style/Theme.NoTitleBar" />
         </edit-config>
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity">
