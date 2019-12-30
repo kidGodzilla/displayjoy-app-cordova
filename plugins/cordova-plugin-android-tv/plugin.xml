@@ -15,7 +15,7 @@
     </engines>
 
     <platform name="android">
-        <resource-file src="res/drawable/banner.png" target="app/src/main/res/drawable/banner.png" />
+        <resource-file src="banner.png" target="app/src/main/res/drawable/banner.png" />
         <custom-preference name="android-manifest/application/@android:banner" value="@drawable/banner" />
         <custom-preference name="android-manifest/@android:banner" value="@drawable/banner" />
         <config-file target="AndroidManifest.xml" parent="/manifest">
