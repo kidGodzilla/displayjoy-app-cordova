@@ -39,8 +39,6 @@
         <splash density="mdpi" src="res/screen/android/screen-mdpi-landscape.png" />
         <splash density="hdpi" src="res/screen/android/screen-hdpi-landscape.png" />
         <splash density="xhdpi" src="res/screen/android/screen-xhdpi-landscape.png" />
-
-        <splash density="port-hdpi" src="res/drawable/banner.png" />
     </platform>
 
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
