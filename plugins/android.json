@@ -15,6 +15,9 @@
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "com.displayjoy"
     }
   },
   "dependent_plugins": {}
