@@ -28,7 +28,7 @@
         <allow-intent href="*" />
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="19" />
-        <preference name="android-targetSdkVersion" value="28" />
+        <preference name="android-targetSdkVersion" value="27" />
 
         <icon qualifier="ldpi" src="res/icon/android/ldpi.png" />
         <icon qualifier="mdpi" src="res/icon/android/mdpi.png" />
