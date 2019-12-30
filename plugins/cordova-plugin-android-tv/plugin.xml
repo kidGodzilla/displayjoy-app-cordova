@@ -38,6 +38,12 @@
             <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
         </config-file>
 
+        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest">
+            <application android:debuggable="true" android:isGame="false" android:banner="@drawable/banner">
+                <activity android:launchMode="1" android:hardwareAccelerated="true" />
+            </application>
+        </edit-config>
+
         <hook type="after_prepare" src="patch.js"/>
     </platform>
 </plugin>
