@@ -40,8 +40,8 @@
         </config-file>
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest">
-            <application android:debuggable="true" android:isGame="false" android:banner="@drawable/banner">
-                <activity android:launchMode="1" android:hardwareAccelerated="true" android:icon="@drawable/banner" android:logo="@drawable/banner" />
+            <application android:debuggable="true" android:isGame="false" android:banner="res/drawable/banner.png">
+                <activity android:launchMode="1" android:hardwareAccelerated="true" />
             </application>
         </edit-config>
 
