@@ -41,11 +41,11 @@
         </config-file>
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
-            <application android:debuggable="true" android:isGame="false" android:banner="@drawable/banner" />
+            <application android:debuggable="true" android:isGame="false" android:banner="@drawable/banner" android:largeHeap="true" android:theme="@style/Theme.Example.LeanbackLauncher" />
         </edit-config>
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity">
-            <activity android:hardwareAccelerated="true" />
+            <activity android:hardwareAccelerated="true" android:screenOrientation="landscape" />
         </edit-config>
 
         <hook type="after_prepare" src="patch.js"/>
