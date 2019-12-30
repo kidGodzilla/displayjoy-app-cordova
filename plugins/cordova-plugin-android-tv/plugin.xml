@@ -37,8 +37,8 @@
             <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
         </config-file>
 
-        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest">
-            <application android:debuggable="true" android:isGame="false" android:banner="@drawable/banner">
+        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+            <application android:debuggable="true" android:isGame="false">
                 <activity android:launchMode="1" android:hardwareAccelerated="true" />
             </application>
         </edit-config>
