@@ -17,7 +17,7 @@
  * under the License.
  */
 
-var initialHref = 'https://app.displayjoy.com', timer1, timer2, deviceInfo = "?";
+var initialHref = 'https://app.displayjoy.com/?w', timer1, timer2, deviceInfo = "&";
 
 function updateDeviceInfo () {
     try {
