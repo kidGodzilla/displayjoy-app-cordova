@@ -46,7 +46,6 @@
 
         <icon density="xxhdpi" src="res/icon/android/xxhdpi.png"/>
         <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png"/>
-
     </platform>
 
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
