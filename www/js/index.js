@@ -1,5 +1,5 @@
 
-var initialHref = 'https://app.displayjoy.com/?w', App, timer1, timer2, displayKeyFromConfig, displayUrlFromConfig, displayKey, redirectUrl, deviceInfo = "&", APPVERSION = 'Unknown';
+var initialHref = 'https://app.displayjoy.com/wrapper.html?w', App, timer1, timer2, displayKeyFromConfig, displayUrlFromConfig, displayKey, redirectUrl, deviceInfo = "&", APPVERSION = 'Unknown';
 
 var app = {
     // Application Constructor
@@ -303,12 +303,12 @@ function updateDeviceInfo () {
 }
 
 function constructInitialHref () {
-    initialHref = 'https://app.displayjoy.com/?w';
+    initialHref = 'https://app.displayjoy.com/wrapper.html?w';
 
     if (displayUrlFromConfig) initialHref = displayUrlFromConfig;
-    else if (displayKeyFromConfig) initialHref = 'https://app.displayjoy.com/?key=' + displayKeyFromConfig;
+    else if (displayKeyFromConfig) initialHref = 'https://app.displayjoy.com/wrapper.html?key=' + displayKeyFromConfig;
     else if (redirectUrl) initialHref = redirectUrl;
-    else if (displayKey) initialHref = 'https://app.displayjoy.com/?key=' + displayKey;
+    else if (displayKey) initialHref = 'https://app.displayjoy.com/wrapper.html?key=' + displayKey;
 }
 
 document.addEventListener('deviceready', function () {
