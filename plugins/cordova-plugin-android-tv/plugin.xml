@@ -41,12 +41,12 @@
         </config-file>
 
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
-            <application android:isGame="false" android:banner="@drawable/banner" android:largeHeap="true" android:theme="@android:style/Theme.NoTitleBar" />
+            <application android:isGame="false" android:banner="@drawable/banner" android:largeHeap="true" android:theme="@android:style/Theme.NoTitleBar" android:hardwareAccelerated="true" />
         </edit-config>
 
-        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity">
-            <activity android:hardwareAccelerated="true" />
-        </edit-config>
+        <!--<edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity">-->
+            <!--<activity android:hardwareAccelerated="true" />-->
+        <!--</edit-config>-->
 
         <!--<hook type="after_prepare" src="patch.js"/>-->
     </platform>
