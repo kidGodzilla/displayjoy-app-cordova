@@ -1,7 +1,7 @@
 {
   "name": "com.displayjoy",
   "displayName": "DisplayJoy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Fastest Way to get Your Content on a TV.",
   "main": "index.js",
   "scripts": {
