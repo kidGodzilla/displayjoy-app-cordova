@@ -67,6 +67,10 @@
             {
               "xml": "<uses-permission android:name=\"android.permission.REORDER_TASKS\" />",
               "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />",
+              "count": 1
             }
           ],
           "/manifest/application/activity/intent-filter": [
@@ -111,6 +115,18 @@
           "/manifest/application": [
             {
               "xml": "<receiver android:name=\"org.cordova.plugin.labs.kiosk.MyPackageReplacedEventReceiver\"><intent-filter><action android:name=\"android.intent.action.MY_PACKAGE_REPLACED\" /></intent-filter></receiver>",
+              "count": 1
+            },
+            {
+              "xml": "<receiver android:enabled=\"false\" android:name=\"com.tonikorin.cordova.plugin.autostart.BootCompletedReceiver\"><intent-filter><action android:name=\"android.intent.action.BOOT_COMPLETED\" /></intent-filter></receiver>",
+              "count": 1
+            },
+            {
+              "xml": "<receiver android:enabled=\"false\" android:name=\"com.tonikorin.cordova.plugin.autostart.UserPresentReceiver\"><intent-filter><action android:name=\"android.intent.action.USER_PRESENT\" /></intent-filter></receiver>",
+              "count": 1
+            },
+            {
+              "xml": "<receiver android:enabled=\"true\" android:name=\"com.tonikorin.cordova.plugin.autostart.PackageReplacedReceiver\"><intent-filter><action android:name=\"android.intent.action.MY_PACKAGE_REPLACED\" /></intent-filter></receiver>",
               "count": 1
             }
           ],
@@ -163,6 +179,10 @@
             },
             {
               "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"AutoStart\"><param name=\"android-package\" value=\"com.tonikorin.cordova.plugin.autostart.AutoStart\" /></feature>",
               "count": 1
             }
           ]
@@ -218,6 +238,9 @@
       "PACKAGE_NAME": "com.displayjoy"
     },
     "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-autostart": {
       "PACKAGE_NAME": "com.displayjoy"
     }
   },
@@ -322,6 +345,14 @@
       "clobbers": [
         "device"
       ]
+    },
+    {
+      "id": "cordova-plugin-autostart.AutoStart",
+      "file": "plugins/cordova-plugin-autostart/www/auto-start.js",
+      "pluginId": "cordova-plugin-autostart",
+      "clobbers": [
+        "cordova.plugins.autoStart"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -337,6 +368,7 @@
     "cordova-plugin-kiosk-launcher": "0.2",
     "cordova-plugin-emm-app-config": "1.0.2",
     "cordova-plugin-network-information": "2.0.2",
-    "cordova-plugin-device": "2.0.3"
+    "cordova-plugin-device": "2.0.3",
+    "cordova-plugin-autostart": "2.3.0"
   }
 }

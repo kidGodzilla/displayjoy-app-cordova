@@ -99,6 +99,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "device"
       ]
+    },
+    {
+      "id": "cordova-plugin-autostart.AutoStart",
+      "file": "plugins/cordova-plugin-autostart/www/auto-start.js",
+      "pluginId": "cordova-plugin-autostart",
+      "clobbers": [
+        "cordova.plugins.autoStart"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -114,6 +122,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-kiosk-launcher": "0.2",
     "cordova-plugin-emm-app-config": "1.0.2",
     "cordova-plugin-network-information": "2.0.2",
-    "cordova-plugin-device": "2.0.3"
+    "cordova-plugin-device": "2.0.3",
+    "cordova-plugin-autostart": "2.3.0"
   };
 });

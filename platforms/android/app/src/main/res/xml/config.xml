@@ -31,6 +31,9 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
+    <feature name="AutoStart">
+        <param name="android-package" value="com.tonikorin.cordova.plugin.autostart.AutoStart" />
+    </feature>
     <feature name="Kiosk">
         <param name="android-package" value="org.cordova.plugin.labs.kiosk.Kiosk" />
     </feature>

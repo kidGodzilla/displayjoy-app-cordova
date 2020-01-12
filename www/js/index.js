@@ -149,6 +149,7 @@ function runLoop () {
         var _requestSetBrightness = _ls['_requestSetBrightness'];
         var _requestClearStorage = _ls['_requestClearStorage'];
         var _requestToggleKiosk = _ls['_requestToggleKiosk'];
+        var _requestAutostart = _ls['_requestAutostart'];
         var _redirectUrl = _ls['_redirectUrl'];
         var _displayKey = _ls['_displayKey'];
 
@@ -163,6 +164,20 @@ function runLoop () {
         if (_redirectUrl) {
             NativeStorage.setItem('__url', _redirectUrl, function () { console.log('Successfully set url in native storage') }, function () { console.log('Error setting url in native storage') });
             redirectUrl = _redirectUrl;
+        }
+
+        // Request autostart enable / disable
+        if (_requestAutostart) {
+            removeIframeLocalStorage('_requestAutostart');
+
+            if (_requestAutostart == 'true') {
+                cordova.plugins.autoStart.enable();
+                console.log('Enabling Autostart');
+
+            } else if (_requestAutostart == 'false') {
+                cordova.plugins.autoStart.disable();
+                console.log('Disabling Autostart');
+            }
         }
 
         // Allow the clear cache button to clear Nativestorage

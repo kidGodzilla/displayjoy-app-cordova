@@ -45,6 +45,9 @@
     },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-plugin-autostart": {
+      "PACKAGE_NAME": "com.displayjoy"
     }
   },
   "dependent_plugins": {}
