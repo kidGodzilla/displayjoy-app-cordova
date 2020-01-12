@@ -28,13 +28,13 @@
             </activity>
         </edit-config>
 
-        <config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" /><!-- Handler of app icon (required to be launcher) -->
-                <category android:name="android.intent.category.HOME" /><!-- Handler of Home button -->
-            </intent-filter>
-        </config-file>
+        <!--<config-file target="AndroidManifest.xml" parent="/manifest/application/activity">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />&lt;!&ndash; Handler of app icon (required to be launcher) &ndash;&gt;-->
+                <!--<category android:name="android.intent.category.HOME" />&lt;!&ndash; Handler of Home button &ndash;&gt;-->
+            <!--</intent-filter>-->
+        <!--</config-file>-->
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <!-- autorun after the app APK is updated -->
