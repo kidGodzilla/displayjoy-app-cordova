@@ -54,7 +54,7 @@
     <preference name="Fullscreen" value="true" />
 
     <plugin name="cordova-plugin-android-tv" spec="https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git" />
-    <plugin name="cordova-plugin-kiosk-launcher" spec="https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git" />
+    <!--<plugin name="cordova-plugin-kiosk-launcher" spec="https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git" />-->
     <plugin name="cordova-plugin-network-information" spec="^2.0.2" />
     <plugin name="cordova-plugin-emm-app-config" spec="^1.0.2" />
     <plugin name="cordova-plugin-nativestorage" spec="^2.3.2" />
