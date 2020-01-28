@@ -110,5 +110,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-android-crash-auto-restart": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-android-crash-auto-restart"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

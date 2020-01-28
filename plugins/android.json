@@ -48,6 +48,9 @@
     },
     "cordova-plugin-autostart": {
       "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-android-crash-auto-restart": {
+      "PACKAGE_NAME": "com.displayjoy"
     }
   },
   "dependent_plugins": {}
