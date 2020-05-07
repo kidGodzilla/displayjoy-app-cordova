@@ -4,16 +4,8 @@ The fastest way to get your content on a TV. Simple WYSIWYG / Drag-and-drop edit
 
 ## Latest builds
 
-### Android TV (apk)
+### Android TV & Fire TV
 
-https://meetingroom365.b-cdn.net/apps/atv3.apk
+https://meetingroom365.com/apps/
 
-## Known Issues
 
-- Youtube video start failure (Android TV)
-
-## Todos
-
-- [x] Fix automatic loading issue on Android TV
-- [x] Replace splash video with image
-- [ ] Add custom timers

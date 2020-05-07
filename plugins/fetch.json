@@ -114,7 +114,7 @@
   "cordova-android-crash-auto-restart": {
     "source": {
       "type": "registry",
-      "id": "cordova-android-crash-auto-restart"
+      "id": "cordova-android-crash-auto-restart@0.0.3"
     },
     "is_top_level": true,
     "variables": {}
