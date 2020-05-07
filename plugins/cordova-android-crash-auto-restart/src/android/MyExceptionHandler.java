@@ -20,9 +20,50 @@ public class MyExceptionHandler implements
         myActivity = a;
     }
 
+    public static void doRestart(Context c) {
+        try {
+            //check if the context is given
+            if (c != null) {
+                //fetch the packagemanager so we can get the default launch activity
+                // (you can replace this intent with any other activity if you want
+                PackageManager pm = c.getPackageManager();
+                //check if we got the PackageManager
+                if (pm != null) {
+                    //create the intent with the default start activity for your application
+                    Intent mStartActivity = pm.getLaunchIntentForPackage(
+                            c.getPackageName()
+                    );
+                    if (mStartActivity != null) {
+                        mStartActivity.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        //create a pending intent so the application is restarted after System.exit(0) was called.
+                        // We use an AlarmManager to call this intent in 100ms
+                        int mPendingIntentId = 223344;
+                        PendingIntent mPendingIntent = PendingIntent
+                                .getActivity(c, mPendingIntentId, mStartActivity,
+                                        PendingIntent.FLAG_CANCEL_CURRENT);
+                        AlarmManager mgr = (AlarmManager) c.getSystemService(Context.ALARM_SERVICE);
+                        mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 100, mPendingIntent);
+                        //kill the application
+                        System.exit(0);
+                    } else {
+                        Log.e(TAG, "Was not able to restart application, mStartActivity null");
+                    }
+                } else {
+                    Log.e(TAG, "Was not able to restart application, PM null");
+                }
+            } else {
+                Log.e(TAG, "Was not able to restart application, Context null");
+            }
+        } catch (Exception ex) {
+            Log.e(TAG, "Was not able to restart application");
+        }
+    }
+
     public void uncaughtException(Thread thread, Throwable exception) {
 
-        Intent intent = myContext.getPackageManager().getLaunchIntentForPackage(myContext.getPackageName() );
+        doRestart(myContext);
+
+        /* Intent intent = myContext.getPackageManager().getLaunchIntentForPackage(myContext.getPackageName() );
 
         intent.addFlags(FLAG_ACTIVITY_NEW_TASK);
         intent.putExtra(KEY_RESTART_INTENT, intent);
@@ -33,7 +74,7 @@ public class MyExceptionHandler implements
         }
 
         Runtime.getRuntime().exit(0);
-        System.exit(2);
+        System.exit(2); */
             
                   
         /* Log.e("", "restarting app");
