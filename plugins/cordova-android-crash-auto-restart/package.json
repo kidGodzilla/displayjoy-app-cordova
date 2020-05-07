@@ -1,27 +1,24 @@
 {
-  "_from": "cordova-android-crash-auto-restart",
-  "_id": "cordova-android-crash-auto-restart@0.0.2",
+  "_from": "git+https://github.com/grimaldistudio/cordova-android-crash-auto-restart.git",
+  "_id": "cordova-android-crash-auto-restart@0.0.3",
   "_inBundle": false,
-  "_integrity": "sha512-NpuqrM06hZhr0Zlg8njwg8Q9I5VX+EnNapKeZOnINudd8Qs15mfRvPnSA8wgf6KEzjhyVE24H3t4Ql+E60WPlg==",
+  "_integrity": "",
   "_location": "/cordova-android-crash-auto-restart",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-android-crash-auto-restart",
-    "name": "cordova-android-crash-auto-restart",
-    "escapedName": "cordova-android-crash-auto-restart",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "type": "git",
+    "raw": "https://github.com/grimaldistudio/cordova-android-crash-auto-restart.git",
+    "rawSpec": "https://github.com/grimaldistudio/cordova-android-crash-auto-restart.git",
+    "saveSpec": "git+https://github.com/grimaldistudio/cordova-android-crash-auto-restart.git",
+    "fetchSpec": "https://github.com/grimaldistudio/cordova-android-crash-auto-restart.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-android-crash-auto-restart/-/cordova-android-crash-auto-restart-0.0.2.tgz",
-  "_shasum": "6b5d79687f2b9a73f36c6edc763b0bb9cbc66a18",
-  "_spec": "cordova-android-crash-auto-restart",
+  "_resolved": "git+https://github.com/grimaldistudio/cordova-android-crash-auto-restart.git#7b65fb8ec90a27351c3e8c6f87fb3ae0b60efe7f",
+  "_spec": "https://github.com/grimaldistudio/cordova-android-crash-auto-restart.git",
   "_where": "/Users/jamesfuthey/displayjoy-app-cordova",
   "author": {
     "name": "huangang",
@@ -36,6 +33,9 @@
     "platforms": [
       "android"
     ]
+  },
+  "dependencies": {
+    "elementtree": "^0.1.7"
   },
   "deprecated": false,
   "description": "Cordova plugin to restart app when happend crash",
@@ -54,5 +54,5 @@
     "type": "git",
     "url": "git+https://github.com/huangang/cordova-android-crash-auto-restart.git"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }

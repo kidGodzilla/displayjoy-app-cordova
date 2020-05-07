@@ -114,7 +114,7 @@
   "cordova-android-crash-auto-restart": {
     "source": {
       "type": "registry",
-      "id": "cordova-android-crash-auto-restart@0.0.3"
+      "id": "https://github.com/grimaldistudio/cordova-android-crash-auto-restart.git"
     },
     "is_top_level": true,
     "variables": {}
