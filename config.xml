@@ -53,7 +53,7 @@
     <preference name="loadUrlTimeoutValue" value="120000" />
     <preference name="Fullscreen" value="true" />
 
-    <plugin name="cordova-android-crash-auto-restart" spec="https://github.com/grimaldistudio/cordova-android-crash-auto-restart.git" />
+    <plugin name="cordova-android-crash-auto-restart" spec="https://github.com/kidGodzilla/cordova-android-crash-auto-restart.git" />
     <plugin name="cordova-plugin-android-tv" spec="https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git" />
     <!--<plugin name="cordova-plugin-kiosk-launcher" spec="https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git" />-->
     <plugin name="cordova-plugin-network-information" spec="^2.0.2" />

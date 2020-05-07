@@ -14,7 +14,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-android": "^8.1.0",
-    "cordova-android-crash-auto-restart": "git+https://github.com/grimaldistudio/cordova-android-crash-auto-restart.git",
+    "cordova-android-crash-auto-restart": "git+https://github.com/kidGodzilla/cordova-android-crash-auto-restart.git",
     "cordova-custom-config": "^5.1.0",
     "cordova-plugin-android-tv": "git+https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git",
     "cordova-plugin-app-version": "^0.1.9",
