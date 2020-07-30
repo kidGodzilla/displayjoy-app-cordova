@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.displayjoy" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://phonegap.com/ns/1.0">
+<widget id="com.displayjoy" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://phonegap.com/ns/1.0">
     <name>DisplayJoy</name>
     <description>
         The Fastest Way to get Your Content on a TV.
@@ -53,9 +53,7 @@
     <preference name="loadUrlTimeoutValue" value="120000" />
     <preference name="Fullscreen" value="true" />
 
-    <plugin name="cordova-android-crash-auto-restart" spec="https://github.com/kidGodzilla/cordova-android-crash-auto-restart.git" />
     <plugin name="cordova-plugin-android-tv" spec="https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git" />
-    <!--<plugin name="cordova-plugin-kiosk-launcher" spec="https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git" />-->
     <plugin name="cordova-plugin-network-information" spec="^2.0.2" />
     <plugin name="cordova-plugin-emm-app-config" spec="^1.0.2" />
     <plugin name="cordova-plugin-nativestorage" spec="^2.3.2" />

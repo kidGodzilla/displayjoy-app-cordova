@@ -1,20 +1,19 @@
 {
   "name": "com.displayjoy",
   "displayName": "DisplayJoy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The Fastest Way to get Your Content on a TV.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ecosystem:cordova"
+    ""
   ],
-  "author": "Apache Cordova Team",
+  "author": "James Futhey",
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-android": "^8.1.0",
-    "cordova-android-crash-auto-restart": "git+https://github.com/kidGodzilla/cordova-android-crash-auto-restart.git",
     "cordova-custom-config": "^5.1.0",
     "cordova-plugin-android-tv": "git+https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git",
     "cordova-plugin-app-version": "^0.1.9",
@@ -24,7 +23,6 @@
     "cordova-plugin-device": "^2.0.3",
     "cordova-plugin-emm-app-config": "^1.0.2",
     "cordova-plugin-insomnia": "^4.3.0",
-    "cordova-plugin-kiosk-launcher": "git+https://github.com/kidGodzilla/cordova-plugin-kiosk-launcher.git",
     "cordova-plugin-nativestorage": "^2.3.2",
     "cordova-plugin-network-information": "^2.0.2"
   },
@@ -41,12 +39,10 @@
       "cordova-plugin-app-version": {},
       "cordova-plugin-cache-clear": {},
       "cordova-plugin-nativestorage": {},
-      "cordova-plugin-kiosk-launcher": {},
       "cordova-plugin-emm-app-config": {},
       "cordova-plugin-network-information": {},
       "cordova-plugin-device": {},
-      "cordova-plugin-autostart": {},
-      "cordova-android-crash-auto-restart": {}
+      "cordova-plugin-autostart": {}
     },
     "platforms": [
       "android"
