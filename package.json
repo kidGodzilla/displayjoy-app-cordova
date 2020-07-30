@@ -11,7 +11,7 @@
     ""
   ],
   "author": "James Futhey",
-  "license": "Apache-2.0",
+  "license": "none",
   "dependencies": {
     "cordova-android": "^8.1.0",
     "cordova-custom-config": "^5.1.0",
