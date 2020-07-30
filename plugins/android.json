@@ -51,6 +51,9 @@
     },
     "cordova-android-crash-auto-restart": {
       "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-restart-on-crash": {
+      "PACKAGE_NAME": "com.displayjoy"
     }
   },
   "dependent_plugins": {}

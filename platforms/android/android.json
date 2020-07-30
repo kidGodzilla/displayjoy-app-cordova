@@ -58,8 +58,8 @@
                 "android:debuggable": "true",
                 "android:hardwareAccelerated": "true",
                 "android:isGame": "false",
-                "android:versionCode": "10001",
-                "android:versionName": "1.0.1",
+                "android:versionCode": "10004",
+                "android:versionName": "1.0.4",
                 "package": "com.displayjoy",
                 "xmlns:android": "http://schemas.android.com/apk/res/android"
               }
@@ -194,6 +194,10 @@
             {
               "xml": "<feature name=\"Kiosk\"><param name=\"android-package\" value=\"org.cordova.plugin.labs.kiosk.Kiosk\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"restartappplugin\"><param name=\"android-package\" value=\"com.restartappplugin.restartappplugin\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -244,6 +248,9 @@
       "PACKAGE_NAME": "com.displayjoy"
     },
     "cordova-android-crash-auto-restart": {
+      "PACKAGE_NAME": "com.displayjoy"
+    },
+    "cordova-restart-on-crash": {
       "PACKAGE_NAME": "com.displayjoy"
     }
   },
@@ -356,6 +363,14 @@
       "clobbers": [
         "cordova.plugins.autoStart"
       ]
+    },
+    {
+      "id": "cordova-restart-on-crash.restartappplugin",
+      "file": "plugins/cordova-restart-on-crash/www/restartappplugin.js",
+      "pluginId": "cordova-restart-on-crash",
+      "clobbers": [
+        "restartappplugin"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -373,6 +388,7 @@
     "cordova-plugin-network-information": "2.0.2",
     "cordova-plugin-device": "2.0.3",
     "cordova-plugin-autostart": "2.3.0",
-    "cordova-android-crash-auto-restart": "0.0.1"
+    "cordova-android-crash-auto-restart": "0.0.1",
+    "cordova-restart-on-crash": "0.7.1"
   }
 }

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.displayjoy" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://phonegap.com/ns/1.0">
+<widget id="com.displayjoy" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://phonegap.com/ns/1.0">
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
@@ -36,6 +36,9 @@
     </feature>
     <feature name="Kiosk">
         <param name="android-package" value="org.cordova.plugin.labs.kiosk.Kiosk" />
+    </feature>
+    <feature name="restartappplugin">
+        <param name="android-package" value="com.restartappplugin.restartappplugin" />
     </feature>
     <name>DisplayJoy</name>
     <description>

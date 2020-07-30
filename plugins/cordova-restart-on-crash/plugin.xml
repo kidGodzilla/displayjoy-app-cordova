@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-restart-on-crash" version="0.7.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-restart-on-crash</name>
+    <js-module name="restartappplugin" src="www/restartappplugin.js">
+        <clobbers target="restartappplugin" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="config.xml">
+            <feature name="restartappplugin">
+                <param name="android-package" value="com.restartappplugin.restartappplugin" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/restartappplugin.java" target-dir="src/" />
+    </platform>
+</plugin>

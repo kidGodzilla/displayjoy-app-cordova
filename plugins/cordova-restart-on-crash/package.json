@@ -1,0 +1,42 @@
+{
+  "_from": "git+https://github.com/Meeting-Room-365/cordova-restart-on-crash.git",
+  "_id": "cordova-restart-on-crash@0.7.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-restart-on-crash",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/Meeting-Room-365/cordova-restart-on-crash.git",
+    "rawSpec": "https://github.com/Meeting-Room-365/cordova-restart-on-crash.git",
+    "saveSpec": "git+https://github.com/Meeting-Room-365/cordova-restart-on-crash.git",
+    "fetchSpec": "https://github.com/Meeting-Room-365/cordova-restart-on-crash.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Meeting-Room-365/cordova-restart-on-crash.git#548576d3914d5d7592294be0806363320a2a852a",
+  "_spec": "https://github.com/Meeting-Room-365/cordova-restart-on-crash.git",
+  "_where": "/Users/jamesfuthey/displayjoy-app-cordova",
+  "author": {
+    "name": "Dzenan Helic"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-restart-on-crash",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Automatically restart a Cordova / Android application after it crashes",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "cordova-restart-on-crash",
+  "version": "0.7.1"
+}

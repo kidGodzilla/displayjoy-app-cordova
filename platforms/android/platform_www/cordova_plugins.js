@@ -107,6 +107,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "cordova.plugins.autoStart"
       ]
+    },
+    {
+      "id": "cordova-restart-on-crash.restartappplugin",
+      "file": "plugins/cordova-restart-on-crash/www/restartappplugin.js",
+      "pluginId": "cordova-restart-on-crash",
+      "clobbers": [
+        "restartappplugin"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -124,6 +132,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-network-information": "2.0.2",
     "cordova-plugin-device": "2.0.3",
     "cordova-plugin-autostart": "2.3.0",
-    "cordova-android-crash-auto-restart": "0.0.1"
+    "cordova-android-crash-auto-restart": "0.0.1",
+    "cordova-restart-on-crash": "0.7.1"
   };
 });
