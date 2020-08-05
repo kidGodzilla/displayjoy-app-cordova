@@ -51,6 +51,7 @@
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="loadUrlTimeoutValue" value="120000" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="Fullscreen" value="true" />
 
     <plugin name="cordova-plugin-android-tv" spec="https://github.com/kidGodzilla/magikbee-cordova-plugin-android-tv.git" />
