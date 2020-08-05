@@ -352,4 +352,6 @@ document.addEventListener('deviceready', function () {
     // Reload the client application when coming back online
     document.addEventListener('online', function (event) { reloadApp() });
 
+    try { restartappplugin.setCustomExceptionHandler() } catch(e){}
+
 }, false);
