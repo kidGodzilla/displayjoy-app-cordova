@@ -58,8 +58,8 @@
                 "android:debuggable": "true",
                 "android:hardwareAccelerated": "true",
                 "android:isGame": "false",
-                "android:versionCode": "10004",
-                "android:versionName": "1.0.4",
+                "android:versionCode": "10005",
+                "android:versionName": "1.0.5",
                 "package": "com.displayjoy",
                 "xmlns:android": "http://schemas.android.com/apk/res/android"
               }
